@@ -42,8 +42,8 @@ export class Offsets {
     loadAllDefaultOffsets() {
         this.profiles["DDNet"] = {
             exeName: "DDNet.exe",
-            staticServerAddr: BigInt(0x5AABA0),
-            staticClientAddr: BigInt(0x57D630),
+            staticServerAddr: BigInt(0x5C4B40),
+            staticClientAddr: BigInt(0x469A60),
             client: {
                 aimX: BigInt(0x10),
                 aimY: BigInt(0x14),
@@ -51,24 +51,24 @@ export class Offsets {
                 rWalk: BigInt(0x108),
             },
             server: {
-                localPlayerId: BigInt(0x1450),
-                onlinePlayers: BigInt(0x1454),
-                gametick: BigInt(0x147C),
-                playerX: BigInt(0x1480),
-                playerY: BigInt(0x1484),
+                localPlayerId: BigInt(0x2118),
+                onlinePlayers: BigInt(0x2114),
+                gametick: BigInt(0x2154),
+                playerX: BigInt(0x223C),
+                playerY: BigInt(0x2240),
                 velX: BigInt(0x1488),
                 velY: BigInt(0x148C),
                 aimAngle: BigInt(0x1490),
                 frozenTime: BigInt(0x14C0),
-                frozen: BigInt(0x14CC),
+                frozen: BigInt(0x21A4),
                 hookingTime: BigInt(0x14A4)
             }
         }
 
         this.profiles["DDPer"] = {
             exeName: "DDPER.exe", 
-            staticServerAddr: BigInt(0x403C60),
-            staticClientAddr: BigInt(0x3B2C90),
+            staticServerAddr: BigInt(0x6421E0),
+            staticClientAddr: BigInt(0x611630),
             client: {
                 aimX: BigInt(0x10),
                 aimY: BigInt(0x14),
@@ -76,16 +76,16 @@ export class Offsets {
                 rWalk: BigInt(0xF8),
             },
             server: {
-                localPlayerId: BigInt(0x22E0),
-                onlinePlayers: BigInt(0x22E4),
-                gametick: BigInt(0x230C),
-                playerX: BigInt(0x2310),
-                playerY: BigInt(0x2314),
+                localPlayerId: BigInt(0x2324),
+                onlinePlayers: BigInt(0x2320),
+                gametick: BigInt(0x2364),
+                playerX: BigInt(0x244C),
+                playerY: BigInt(0x2450),
                 velX: BigInt(0x2318),
                 velY: BigInt(0x231C),
                 aimAngle: BigInt(0x2320),
                 frozenTime: BigInt(0x2350),
-                frozen: BigInt(0x235C),
+                frozen: BigInt(0x23B4),
                 hookingTime: BigInt(0x2334)   
             }
         }
